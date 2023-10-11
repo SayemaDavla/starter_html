@@ -1,0 +1,25 @@
+.nav-link{
+    background: rgb(0,100,0);
+    text-align: center;
+}
+.nav-link ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.nav-link ul li{
+    width: 50px;
+    margin: 10px;
+    padding: 10px;
+    color: pink;
+    font-size: 20px;
+}
+.nav-link ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.active, .nav-link ul li :hover{
+    background: #2b2b2b;
+    border-radius: 3px;
+
+}
